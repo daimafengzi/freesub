@@ -171,7 +171,7 @@ DATACENTER_ASNS = {
     199524, 206096, 49505,  # Selectel/WorldStream
     62240, 49304, 34665, 209242, 219337, 44477,
     200651, 202685, 210644, 205628, 51852, 204544, 397373, 140224,  # 小型 IDC
-    54866,  # Parsebian/HydraTransit 类
+    54866，  # Parsebian/HydraTransit 类
     45899,  # VNPT 云? 标记为 IDC
     # ★ 实测漏网: 收购家宽段/伪装 DSL rDNS 的云边网络 (ip-api proxy=true 案例补充)
     62610,  # Zenlayer (AS62610, rDNS 带 dsl.speakeasy.net 但 proxy=true)
@@ -2188,7 +2188,7 @@ def make_node_name(item, idx, force_residential=False):
     # Scamalytics 风控分: 高风险节点名内标注 (R分数), 低危不标 (保持简洁)
     fraud = item.get("fraud_score", -1)
     risk_tag = f" R{fraud}" if 0 <= fraud < 75 and fraud >= 40 else (" ⚠R" if fraud >= 75 else "")
-    return f"{flag} {cname} {idx:02d}{tag}{risk_tag} - xiaohe"
+    return f"{flag} {cname} {idx:02d}{tag}{risk_tag} - Github"
 
 
 def export_all(unique_nodes, residential, non_residential):
@@ -2345,7 +2345,7 @@ def update_readme(total_count, res_count):
 
     readme = f"""# 🚀 免费节点自动测活订阅池 (含真实家宽/住宅IP甄选)
 
-> 👤 **定制规范命名**: 所有订阅节点均重命名为 `国旗 地区 序号 (家宽) - xiaohe`
+> 👤 **定制规范命名**: 所有订阅节点均重命名为 `国旗 地区 序号 (家宽) - Github`
 > ⚡ **真实可用保障**: 所有节点由 `sing-box v{SINGBOX_VERSION}` 内核建立实际代理隧道, 完成真实 HTTPS 双向传输握手 + 出口 IP 穿透验证 + Cloudflare 限速下载断流检测 + TLS 证书校验 (MITM 劫持识别), 拒绝虚假通畅、断流节点与高危劫持节点。
 > 🛡️ **全协议支持**: VLESS (Reality/Vision) · VMESS · Trojan · Shadowsocks · Hysteria2 · TUIC · AnyTLS
 
