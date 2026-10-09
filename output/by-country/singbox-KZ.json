@@ -14,7 +14,7 @@
         "type": "ws",
         "path": "/vmess/",
         "headers": {
-          "Host": "google.com"
+          "Host": "38.107.234.57"
         }
       }
     },
@@ -29,7 +29,7 @@
         "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
