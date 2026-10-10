@@ -28,15 +28,24 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - Github",
-      "server": "162.249.126.39",
-      "server_port": 9443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hop-germany-september.dynuddns.com",
-        "insecure": false
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
+        }
       }
     },
     {
@@ -62,43 +71,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 04 - Github",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.datadoghq.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - Github",
-      "server": "me17.msjia8844.site",
-      "server_port": 7443,
-      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
-      "tls": {
-        "enabled": true,
-        "server_name": "me17.msjia8844.site",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - Github",
       "server": "85.192.48.142",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
@@ -108,7 +80,7 @@
         "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -125,9 +97,7 @@
         "🇹🇷 土耳其 (Turkey) 01 - Github",
         "🇹🇷 土耳其 (Turkey) 02 - Github",
         "🇹🇷 土耳其 (Turkey) 03 - Github",
-        "🇹🇷 土耳其 (Turkey) 04 - Github",
-        "🇹🇷 土耳其 (Turkey) 05 - Github",
-        "🇹🇷 土耳其 (Turkey) 06 - Github"
+        "🇹🇷 土耳其 (Turkey) 04 - Github"
       ]
     },
     {
@@ -137,9 +107,7 @@
         "🇹🇷 土耳其 (Turkey) 01 - Github",
         "🇹🇷 土耳其 (Turkey) 02 - Github",
         "🇹🇷 土耳其 (Turkey) 03 - Github",
-        "🇹🇷 土耳其 (Turkey) 04 - Github",
-        "🇹🇷 土耳其 (Turkey) 05 - Github",
-        "🇹🇷 土耳其 (Turkey) 06 - Github"
+        "🇹🇷 土耳其 (Turkey) 04 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
