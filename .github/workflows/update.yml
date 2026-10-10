@@ -1,9 +1,9 @@
 name: Update Subscriptions
 
 on:
-  workflow_dispatch:  # 保留手动触发按钮
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时执行一次 (UTC时间)
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
@@ -31,7 +31,6 @@ jobs:
         run: |
           python scripts/main_v2.py
         env:
-          # 便于 ip-api 等识别限速; GitHub runner 出口为美国 Azure
           PYTHONUNBUFFERED: '1'
 
       - name: Upload test artifacts (调试用, 7天保留)
