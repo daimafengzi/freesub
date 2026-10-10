@@ -171,7 +171,7 @@ DATACENTER_ASNS = {
     199524, 206096, 49505,  # Selectel/WorldStream
     62240, 49304, 34665, 209242, 219337, 44477,
     200651, 202685, 210644, 205628, 51852, 204544, 397373, 140224,  # 小型 IDC
-    54866，  # Parsebian/HydraTransit 类
+    54866,  # Parsebian/HydraTransit 类
     45899,  # VNPT 云? 标记为 IDC
     # ★ 实测漏网: 收购家宽段/伪装 DSL rDNS 的云边网络 (ip-api proxy=true 案例补充)
     62610,  # Zenlayer (AS62610, rDNS 带 dsl.speakeasy.net 但 proxy=true)
