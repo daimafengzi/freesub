@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: arcturus.yokkastars.com
+- name: 🇮🇶 IQ 01 - Github
+  server: 178.17.57.120
   port: 40443
   udp: true
   type: vless
@@ -22,12 +22,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 01 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 01 - Github
 rules:
 - MATCH,PROXIES
