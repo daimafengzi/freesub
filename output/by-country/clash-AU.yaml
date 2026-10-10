@@ -23,7 +23,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-au-001.fastervpn.world
+  sni: 127.0.0.1
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 03 - Github
   server: 152.67.115.203
@@ -45,7 +45,19 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
-  ports: 20000-30000
+  ports: 20000-30000,20000-20000
+- name: 🇦🇺 澳大利亚 (Australia) 05 - Github
+  server: 144.172.65.72
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg
+  servername: www.tradingview.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,6 +67,7 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 02 - Github
   - 🇦🇺 澳大利亚 (Australia) 03 - Github
   - 🇦🇺 澳大利亚 (Australia) 04 - Github
+  - 🇦🇺 澳大利亚 (Australia) 05 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,5 +77,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 02 - Github
   - 🇦🇺 澳大利亚 (Australia) 03 - Github
   - 🇦🇺 澳大利亚 (Australia) 04 - Github
+  - 🇦🇺 澳大利亚 (Australia) 05 - Github
 rules:
 - MATCH,PROXIES

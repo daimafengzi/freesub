@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - Github",
-      "server": "156.226.168.221",
+      "server": "hk3n.wxgqlfx.vip",
       "server_port": 35193,
       "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "flow": "xtls-rprx-vision",
@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -25,18 +25,41 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - Github",
+      "server": "51.194.215.232",
+      "server_port": 443,
+      "uuid": "5b5e4cbf-2366-499a-8327-0cd9918c687d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloak.surfweb.club",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - Github"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - Github",
+        "🇸🇨 塞舌尔 (Seychelles) 02 - Github"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - Github"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - Github",
+        "🇸🇨 塞舌尔 (Seychelles) 02 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
