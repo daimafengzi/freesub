@@ -5,6 +5,41 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - Github
+  server: 162.159.152.31
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  sni: now-pages-sub-em4.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+- name: 🇨🇿 捷克 (Czech) 02 - Github
+  server: 104.17.147.22
+  port: 443
+  udp: true
+  type: vless
+  uuid: af0db32b-2cb0-48c7-b04e-96003f8c2369
+  tls: true
+  servername: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/lIp8WbnljVYVSeQwjoRQPUGWwnVL?ed=2560
+    headers:
+      Host: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
+- name: 🇨🇿 捷克 (Czech) 03 - Github
+  server: 153.76.185.164
+  port: 3090
+  udp: true
+  type: vless
+  uuid: a7a4e6f3-4e63-4cc2-ba22-4635f3ff6aca
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - Github
   server: 95.85.238.173
   port: 443
   udp: true
@@ -18,11 +53,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - Github
+  - 🇨🇿 捷克 (Czech) 02 - Github
+  - 🇨🇿 捷克 (Czech) 03 - Github
+  - 🇨🇿 捷克 (Czech) 04 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - Github
+  - 🇨🇿 捷克 (Czech) 02 - Github
+  - 🇨🇿 捷克 (Czech) 03 - Github
+  - 🇨🇿 捷克 (Czech) 04 - Github
 rules:
 - MATCH,PROXIES

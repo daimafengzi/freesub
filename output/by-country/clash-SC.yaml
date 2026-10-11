@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 塞舌尔 (Seychelles) 01 - Github
-  server: hk3n.wxgqlfx.vip
+  server: 156.226.168.221
   port: 35193
   udp: true
   type: vless
@@ -18,16 +18,18 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇸🇨 塞舌尔 (Seychelles) 02 - Github
-  server: 51.194.215.232
+  server: 144.31.50.236
   port: 443
   udp: true
   type: vless
-  uuid: 5b5e4cbf-2366-499a-8327-0cd9918c687d
+  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
   flow: xtls-rprx-vision
   tls: true
-  servername: cloak.surfweb.club
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  reality-opts:
+    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+    short-id: bbe46bd8f6b96839
+  servername: yandex.ru
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select

@@ -5,19 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - Github
-  server: 31.207.7.74
+  server: 77.110.96.201
+  port: 36264
+  udp: true
+  type: hysteria2
+  password: Telegram-vpnjey
+  sni: se.vpnjey2.dpdns.org
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 🇸🇪 瑞典 (Sweden) 02 - Github
+  server: swself2.yandex-api.com
   port: 443
   udp: true
   type: vless
-  uuid: 2412bd96-925b-43f2-81d1-0ed4f0793699
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: RDL0RVmgFM3fdqXRSHBF2A53YF9TPFu2aeJQhMTaY3s
-    short-id: 457ae5b8bef4d1b3
-  servername: pkg.go.dev
-  client-fingerprint: random
-- name: 🇸🇪 瑞典 (Sweden) 02 - Github
+    public-key: HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY
+    short-id: 7f2e9c4b1a8d6e25
+  servername: swself2.yandex-api.com
+  client-fingerprint: edge
+- name: 🇸🇪 瑞典 (Sweden) 03 - Github
   server: se3.h1cloud.net
   port: 25119
   udp: true
@@ -29,7 +39,7 @@ proxies:
     public-key: szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4
     short-id: 10f517
   servername: www.samsung.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,6 +47,7 @@ proxy-groups:
   - AUTO
   - 🇸🇪 瑞典 (Sweden) 01 - Github
   - 🇸🇪 瑞典 (Sweden) 02 - Github
+  - 🇸🇪 瑞典 (Sweden) 03 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +55,6 @@ proxy-groups:
   proxies:
   - 🇸🇪 瑞典 (Sweden) 01 - Github
   - 🇸🇪 瑞典 (Sweden) 02 - Github
+  - 🇸🇪 瑞典 (Sweden) 03 - Github
 rules:
 - MATCH,PROXIES

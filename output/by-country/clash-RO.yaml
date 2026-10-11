@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - Github
-  server: 77.74.123.105
+  server: 77.74.123.102
   port: 8443
   udp: true
   type: hysteria2
@@ -18,18 +18,23 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: www.bing.com
+  sni: speedtest.tinkoff.ru
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - Github
-  server: 162.249.125.133
-  port: 443
+  server: 95.133.247.98
+  port: 995
   udp: true
-  type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
+  type: vless
+  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
+  tls: true
+  servername: love-paris.roxa.org
   skip-cert-verify: false
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
+  client-fingerprint: firefox
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /api/v1
+    headers:
+      Host: love-paris.roxa.org
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - Github
   server: hy2-new.aspidnet.xyz
   port: 443
@@ -65,9 +70,22 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇷🇴 罗马尼亚 (Romania) 07 - Github
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: glazatushi.yandex-api.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: a9dc98a7dc87a7dc
+  servername: glazatushi.yandex-api.com
+  client-fingerprint: random
+- name: 🇷🇴 罗马尼亚 (Romania) 08 - Github
+  server: 154.46.31.106
   port: 443
   udp: true
   type: ss
@@ -85,6 +103,7 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 05 - Github
   - 🇷🇴 罗马尼亚 (Romania) 06 - Github
   - 🇷🇴 罗马尼亚 (Romania) 07 - Github
+  - 🇷🇴 罗马尼亚 (Romania) 08 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,5 +116,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 05 - Github
   - 🇷🇴 罗马尼亚 (Romania) 06 - Github
   - 🇷🇴 罗马尼亚 (Romania) 07 - Github
+  - 🇷🇴 罗马尼亚 (Romania) 08 - Github
 rules:
 - MATCH,PROXIES

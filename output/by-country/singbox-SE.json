@@ -4,29 +4,45 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - Github",
-      "server": "31.207.7.74",
-      "server_port": 443,
-      "uuid": "2412bd96-925b-43f2-81d1-0ed4f0793699",
-      "flow": "xtls-rprx-vision",
+      "server": "77.110.96.201",
+      "server_port": 36264,
+      "password": "Telegram-vpnjey",
       "tls": {
         "enabled": true,
-        "server_name": "pkg.go.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RDL0RVmgFM3fdqXRSHBF2A53YF9TPFu2aeJQhMTaY3s",
-          "short_id": "457ae5b8bef4d1b3"
-        }
+        "server_name": "se.vpnjey2.dpdns.org",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram@vpnjey"
       }
     },
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - Github",
+      "server": "swself2.yandex-api.com",
+      "server_port": 443,
+      "uuid": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "swself2.yandex-api.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY",
+          "short_id": "7f2e9c4b1a8d6e25"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - Github",
       "server": "se3.h1cloud.net",
       "server_port": 25119,
       "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
@@ -36,7 +52,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -51,7 +67,8 @@
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - Github",
-        "🇸🇪 瑞典 (Sweden) 02 - Github"
+        "🇸🇪 瑞典 (Sweden) 02 - Github",
+        "🇸🇪 瑞典 (Sweden) 03 - Github"
       ]
     },
     {
@@ -59,7 +76,8 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - Github",
-        "🇸🇪 瑞典 (Sweden) 02 - Github"
+        "🇸🇪 瑞典 (Sweden) 02 - Github",
+        "🇸🇪 瑞典 (Sweden) 03 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -13,25 +13,25 @@ proxies:
   password: qYEN5HX4JKeVCdEC
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - Github
   server: 195.238.126.20
-  port: 9086
+  port: 9045
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 37Z4TFCYhfxcpc9Q
+  password: Lp27rqyJq72bZsqX
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - Github
-  server: 195.238.126.20
-  port: 9001
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - Github
   server: 195.238.126.20
   port: 9078
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: JCJpbRbQZNw9XFZG
+- name: 🇱🇹 立陶宛 (Lithuania) 04 - Github
+  server: 195.238.126.20
+  port: 9012
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: xaupMUvhptwxdDUg
 - name: 🇱🇹 立陶宛 (Lithuania) 05 - Github
   server: 195.238.126.20
   port: 9068
@@ -48,18 +48,18 @@ proxies:
   password: b8KkNDjEd5QqFyRm
 - name: 🇱🇹 立陶宛 (Lithuania) 07 - Github
   server: 195.238.126.20
-  port: 9045
+  port: 9001
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
+  password: UkXRsXvR6buDMG2Y
 - name: 🇱🇹 立陶宛 (Lithuania) 08 - Github
   server: 195.238.126.20
-  port: 9012
+  port: 9086
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: xaupMUvhptwxdDUg
+  password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 09 - Github
   server: 195.238.126.20
   port: 9008
@@ -68,7 +68,7 @@ proxies:
   cipher: aes-256-cfb
   password: y9VURyNzJWNRYEGQ
 - name: 🇱🇹 立陶宛 (Lithuania) 10 - Github
-  server: 80.209.238.60
+  server: b58e68t.lt1.h1clayd.click
   port: 443
   udp: true
   type: vless
