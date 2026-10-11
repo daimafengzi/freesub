@@ -5,31 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - Github
-  server: 185.103.110.66
-  port: 18280
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 02 - Github
   server: 185.103.110.68
   port: 18283
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 03 - Github
-  server: 85.209.129.5
-  port: 443
+- name: 🇫🇮 芬兰 (Finland) 02 - Github
+  server: 185.103.110.66
+  port: 18280
   udp: true
-  type: trojan
-  password: muLkJXY1WyEbDdP-AoNpjg3HddPCAcBA
-  sni: fl.global-cdn.org
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ajv
-- name: 🇫🇮 芬兰 (Finland) 04 - Github
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+- name: 🇫🇮 芬兰 (Finland) 03 - Github
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -40,7 +29,13 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇫🇮 芬兰 (Finland) 04 - Github
+  server: edge10.cyrionflare.com
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇫🇮 芬兰 (Finland) 05 - Github
   server: 144.31.27.215
   port: 43000
@@ -55,27 +50,34 @@ proxies:
   servername: 144.31.27.215
   client-fingerprint: edge
 - name: 🇫🇮 芬兰 (Finland) 06 - Github
+  server: feow.nomush.ir
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: K63q-WhHdJoC_AIxT6E4r_IIuGIb6CuV
+- name: 🇫🇮 芬兰 (Finland) 07 - Github
   server: 144.31.212.253
   port: 443
   udp: true
   type: hysteria2
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
   sni: vps155-edge.kermemehori.ru
-  skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 07 - Github
-  server: 195.226.92.129
-  port: 8446
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 08 - Github
+  server: 65.108.3.59
+  port: 443
   udp: true
   type: vless
-  uuid: a61496c3-f256-4a36-8a52-8638b9cc900a
+  uuid: 8df2e661-6f46-471b-9133-7fc13a0daa35
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Y6ZtoxCUW1qFIvLTNfbrsyfCDoIBaRsqGNtbF_mcAXM
-    short-id: 7bac4b112d30d1
-  servername: amd.com
-  client-fingerprint: edge
-- name: 🇫🇮 芬兰 (Finland) 08 - Github
+    public-key: jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no
+    short-id: 90ec9bba2019
+  servername: web.eitaa.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 09 - Github
   server: fi.pythonsetupbib.online
   port: 443
   udp: true
@@ -88,7 +90,20 @@ proxies:
     short-id: bdf5852d1423e694
   servername: fi.pythonsetupbib.online
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 09 - Github
+- name: 🇫🇮 芬兰 (Finland) 10 - Github
+  server: van2.ragnarok-it.xyz
+  port: 8446
+  udp: true
+  type: vless
+  uuid: a61496c3-f256-4a36-8a52-8638b9cc900a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Y6ZtoxCUW1qFIvLTNfbrsyfCDoIBaRsqGNtbF_mcAXM
+    short-id: 7bac4b112d30d1
+  servername: amd.com
+  client-fingerprint: edge
+- name: 🇫🇮 芬兰 (Finland) 11 - Github
   server: 83.220.175.235
   port: 2096
   udp: true
@@ -102,13 +117,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: 🇫🇮 芬兰 (Finland) 10 - Github
-  server: 45.149.114.171
-  port: 777
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
 proxy-groups:
 - name: PROXIES
   type: select
@@ -124,6 +132,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 08 - Github
   - 🇫🇮 芬兰 (Finland) 09 - Github
   - 🇫🇮 芬兰 (Finland) 10 - Github
+  - 🇫🇮 芬兰 (Finland) 11 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -139,5 +148,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 08 - Github
   - 🇫🇮 芬兰 (Finland) 09 - Github
   - 🇫🇮 芬兰 (Finland) 10 - Github
+  - 🇫🇮 芬兰 (Finland) 11 - Github
 rules:
 - MATCH,PROXIES

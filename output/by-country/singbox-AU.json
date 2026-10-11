@@ -4,15 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - Github",
-      "server": "vpn-au-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "144.172.65.72",
+      "server_port": 8443,
+      "uuid": "8afeb33c-b686-43e9-a629-0d98f991ec28",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
+        "server_name": "www.tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg",
+          "short_id": ""
+        }
       }
     },
     {
@@ -32,24 +41,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - Github",
-      "server": "51.161.204.244",
+      "server": "vpn-au-001.fastervpn.world",
       "server_port": 443,
-      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
-      "flow": "xtls-rprx-vision",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
-          "short_id": "0ad08b47f498efd2"
-        }
+        "server_name": "127.0.0.1",
+        "insecure": true
       }
     },
     {
@@ -71,27 +71,6 @@
       ]
     },
     {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - Github",
-      "server": "144.172.65.72",
-      "server_port": 8443,
-      "uuid": "8afeb33c-b686-43e9-a629-0d98f991ec28",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -99,8 +78,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - Github",
         "🇦🇺 澳大利亚 (Australia) 02 - Github",
         "🇦🇺 澳大利亚 (Australia) 03 - Github",
-        "🇦🇺 澳大利亚 (Australia) 04 - Github",
-        "🇦🇺 澳大利亚 (Australia) 05 - Github"
+        "🇦🇺 澳大利亚 (Australia) 04 - Github"
       ]
     },
     {
@@ -110,8 +88,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - Github",
         "🇦🇺 澳大利亚 (Australia) 02 - Github",
         "🇦🇺 澳大利亚 (Australia) 03 - Github",
-        "🇦🇺 澳大利亚 (Australia) 04 - Github",
-        "🇦🇺 澳大利亚 (Australia) 05 - Github"
+        "🇦🇺 澳大利亚 (Australia) 04 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

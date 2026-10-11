@@ -21,10 +21,8 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-    headers:
-      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 泰国 (Thailand) 03 - Github
-  server: 104.16.111.193
+  server: 104.16.10.9
   port: 443
   udp: true
   type: vless
@@ -51,7 +49,7 @@ proxies:
   servername: www.kaidee.com
   client-fingerprint: random
 - name: 🇹🇭 泰国 (Thailand) 05 - Github
-  server: 103.107.52.106
+  server: pphfree2.mvpnpvpn.de5.net
   port: 52351
   udp: true
   type: ss
