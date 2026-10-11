@@ -6,6 +6,27 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - Github",
+      "server": "45.138.103.238",
+      "server_port": 443,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sw.golangwikito.cfd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
+          "short_id": "a1037b25dcef6aa7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - Github",
       "server": "62.60.159.81",
       "server_port": 2053,
       "uuid": "fc00adfb-232a-46ce-8b93-0c70e516aa8a",
@@ -14,7 +35,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -29,28 +50,49 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - Github",
-      "server": "2.26.55.163",
-      "server_port": 443,
-      "uuid": "621bcb9e-7df5-427b-a9d4-6e87223c8bca",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - Github",
+      "server": "136.148.223.212",
+      "server_port": 25119,
+      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "specific3.kandnet.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw",
-          "short_id": ""
+          "public_key": "szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4",
+          "short_id": "10f517"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - Github",
+      "server": "swe.wizard.select",
+      "server_port": 443,
+      "uuid": "3db6eb7e-c548-11f1-9902-a337233c6cda",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "swe.wizard.select",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0",
+          "short_id": "3b20e438da99"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - Github",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - Github",
       "server": "77.110.96.201",
       "server_port": 36264,
       "password": "Telegram-vpnjey",
@@ -65,13 +107,28 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - Github",
+      "server": "sweedenqfds777.qcloud.surf",
+      "server_port": 21223,
+      "password": "8bd04756-3beb-4348-82c9-d35453df50ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sweedenqfds777.qcloud.surf",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - Github",
         "🇸🇪 瑞典 (Sweden) 02 - Github",
-        "🇸🇪 瑞典 (Sweden) 03 - Github"
+        "🇸🇪 瑞典 (Sweden) 03 - Github",
+        "🇸🇪 瑞典 (Sweden) 04 - Github",
+        "🇸🇪 瑞典 (Sweden) 05 - Github",
+        "🇸🇪 瑞典 (Sweden) 06 - Github"
       ]
     },
     {
@@ -80,7 +137,10 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - Github",
         "🇸🇪 瑞典 (Sweden) 02 - Github",
-        "🇸🇪 瑞典 (Sweden) 03 - Github"
+        "🇸🇪 瑞典 (Sweden) 03 - Github",
+        "🇸🇪 瑞典 (Sweden) 04 - Github",
+        "🇸🇪 瑞典 (Sweden) 05 - Github",
+        "🇸🇪 瑞典 (Sweden) 06 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

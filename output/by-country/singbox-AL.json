@@ -4,15 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇱 AL 01 - Github",
-      "server": "alb1337.zaebalsanoproxyklinus.lol",
-      "server_port": 28152,
-      "password": "8bd04756-3beb-4348-82c9-d35453df50ce",
+      "server": "best.valaiqm.ir",
+      "server_port": 3037,
+      "uuid": "a1fb63f7-a942-4010-a830-bc395703a9a4",
       "tls": {
         "enabled": true,
-        "server_name": "alb1337.zaebalsanoproxyklinus.lol",
-        "insecure": false
+        "server_name": "telewebion.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cYQAluLQY4m0yBUkvqWo3LEXTp-_9In3gJUDoEMmn1U",
+          "short_id": "a9c9"
+        }
       }
     },
     {
