@@ -5,126 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - Github
-  server: 104.21.70.21
-  port: 8080
+  server: 51.77.217.70
+  port: 8445
   udp: true
-  type: vless
-  uuid: 5934b979-e128-4c90-a600-744b97bffc8c
-  network: ws
-  ws-opts:
-    path: /vl/Fi3kP8cNjBoo8UPv
-    headers:
-      Host: 5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
 - name: 🇫🇷 法国 (France) 02 - Github
-  server: node-562276409-ece9be.account12.workers.dev
-  port: 443
+  server: 51.77.217.70
+  port: 8447
   udp: true
-  type: vless
-  uuid: 3cd23424-7182-4f37-9461-7701917791f6
-  tls: true
-  servername: node-562276409-ece9be.account12.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/LoojiwDChctBr67OEQH2dfP05
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
 - name: 🇫🇷 法国 (France) 03 - Github
-  server: 51.255.13.232
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-- name: 🇫🇷 法国 (France) 04 - Github
-  server: 51.75.118.149
-  port: 20016
-  udp: true
-  type: vless
-  uuid: e558719d-e09b-442c-a0c4-f9471fcc3075
-  network: grpc
-  grpc-opts:
-    grpc-service-name: alibodama-grpc
-- name: 🇫🇷 法国 (France) 05 - Github
-  server: 13.36.234.11
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 13.36.234.11
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 06 - Github
-  server: 62.210.91.10
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇫🇷 法国 (France) 07 - Github
-  server: 62.210.124.146
-  port: 22000
-  udp: true
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 08 - Github
-  server: 151.247.197.253
-  port: 36723
-  udp: true
-  type: hysteria2
-  password: Krab9Hyst2_Rk7pQ2xL
-  sni: 151.247.197.253
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 09 - Github
-  server: pl140.vpnbook.com
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e5c65ph
-- name: 🇫🇷 法国 (France) 10 - Github
-  server: 62.210.91.2
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 11 - Github
-  server: 62.210.7.139
-  port: 60111
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: 62.210.7.139
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 12 - Github
-  server: 62.210.147.2
-  port: 43115
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 13 - Github
-  server: 51.44.167.227
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 14 - Github
   server: 152.228.162.19
   port: 80
   udp: true
@@ -133,25 +33,45 @@ proxies:
   network: ws
   ws-opts:
     path: /vless/
-- name: 🇫🇷 法国 (France) 15 - Github
-  server: pl134.vpnbook.com
-  port: 443
+- name: 🇫🇷 法国 (France) 04 - Github
+  server: 51.77.217.70
+  port: 2053
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e5c65ph
-- name: 🇫🇷 法国 (France) 16 - Github
-  server: 193.70.85.96
+  type: vless
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  tls: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+    short-id: bfe58beb41f1d09f
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 05 - Github
+  server: 62.210.124.146
+  port: 22000
+  udp: true
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 06 - Github
+  server: 151.247.197.253
+  port: 36723
+  udp: true
+  type: hysteria2
+  password: Krab9Hyst2_Rk7pQ2xL
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 07 - Github
+  server: 51.255.166.202
   port: 443
   udp: true
   type: vless
-  uuid: 58756a39-0472-5f8a-89e3-a80fa94af59e
+  uuid: e3k67dwms3
   flow: xtls-rprx-vision
   tls: true
-  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
   skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 17 - Github
+- name: 🇫🇷 法国 (France) 08 - Github
   server: 51.77.217.70
   port: 8446
   udp: true
@@ -161,7 +81,26 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 18 - Github
+- name: 🇫🇷 法国 (France) 09 - Github
+  server: 149.202.57.89
+  port: 443
+  udp: true
+  type: vless
+  uuid: rgiw5k0gg5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 10 - Github
+  server: 13.36.234.11
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 11 - Github
   server: 51.77.217.70
   port: 21000
   udp: true
@@ -172,106 +111,80 @@ proxies:
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
   ports: 21000-21199,33000-33199
-- name: 🇫🇷 法国 (France) 19 - Github
-  server: 88.151.197.213
+- name: 🇫🇷 法国 (France) 12 - Github
+  server: 193.70.85.96
   port: 443
   udp: true
   type: vless
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  uuid: 58756a39-0472-5f8a-89e3-a80fa94af59e
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: 7gPPAdSE90GC5DWQhNH3-7oAHulpWz6iN8dIuKfBflc
-    short-id: 0da7e14db353e7d0
-  servername: frafra.nztvpn.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 20 - Github
-  server: 51.77.217.70
-  port: 8447
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 21 - Github
-  server: 137.74.16.237
-  port: 443
-  udp: true
-  type: vless
-  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
-    short-id: b390e0a721d242b0
-  servername: www.icloud.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 22 - Github
-  server: tyxyrytyro-51255165170-direct.araghchy.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
-  flow: xtls-rprx-vision
-  tls: true
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
+  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
   skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 23 - Github
-  server: 51.255.166.202
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 13 - Github
+  server: pl134.vpnbook.com
   port: 443
   udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e5c65ph
+- name: 🇫🇷 法国 (France) 14 - Github
+  server: 62.210.91.2
+  port: 23576
+  udp: true
   type: vless
-  uuid: 593bf46b-8316-5050-9357-d8a41e4db78b
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
-  skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 24 - Github
-  server: 51.77.217.70
-  port: 8445
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 25 - Github
-  server: 173.212.201.85
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 173.212.201.85
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 26 - Github
-  server: 152.228.139.33
-  port: 35108
-  udp: true
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-  tls: true
   reality-opts:
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-  servername: www.nvidia.com
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 27 - Github
-  server: 149.202.57.89
-  port: 443
+- name: 🇫🇷 法国 (France) 15 - Github
+  server: 62.210.91.10
+  port: 23576
   udp: true
   type: vless
-  uuid: rgiw5k0gg5
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 28 - Github
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 16 - Github
+  server: 62.210.147.2
+  port: 43115
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 17 - Github
+  server: 51.44.167.227
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 18 - Github
+  server: 62.210.7.139
+  port: 60111
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: 62.210.7.139
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 19 - Github
+  server: pl140.vpnbook.com
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e5c65ph
+- name: 🇫🇷 法国 (France) 20 - Github
   server: 152.228.139.33
   port: 51671
   udp: true
@@ -286,33 +199,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc_common3
-- name: 🇫🇷 法国 (France) 29 - Github
-  server: 95.179.208.12
-  port: 443
-  udp: true
-  type: vless
-  uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
-  servername: googleapis.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 30 - Github
-  server: fr4.sodahub.online
-  port: 443
-  udp: true
-  type: vless
-  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 8_v9Eq0VarPDLDLElqECI0ZrqFpL3lMVuluuPXB-DAo
-    short-id: 662fdf1f4412b654
-  servername: fr4.cyphervpn.pro
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 31 - Github
-  server: 104.17.147.22
+- name: 🇫🇷 法国 (France) 21 - Github
+  server: 104.16.71.213
   port: 443
   udp: true
   type: trojan
@@ -322,7 +210,20 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 32 - Github
+- name: 🇫🇷 法国 (France) 22 - Github
+  server: 137.74.16.237
+  port: 443
+  udp: true
+  type: vless
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 23 - Github
   server: 54.37.136.194
   port: 2053
   udp: true
@@ -334,111 +235,30 @@ proxies:
     short-id: 50ba05992b05c1c3
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 33 - Github
-  server: 205.237.105.31
-  port: 11443
-  udp: true
-  type: vless
-  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
-  tls: true
-  servername: f4.vimeostream.online
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v2/stream/ws
-- name: 🇫🇷 法国 (France) 34 - Github
-  server: 5.253.189.238
+- name: 🇫🇷 法国 (France) 24 - Github
+  server: 213.1.145.50
   port: 443
   udp: true
   type: trojan
   password: humanity
   sni: www.calmlunch.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 35 - Github
-  server: fr5.wizard.select
+- name: 🇫🇷 法国 (France) 25 - Github
+  server: 51.255.165.170
   port: 443
   udp: true
   type: vless
-  uuid: 2acc3742-c568-11f1-9902-a337233c6cda
+  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
-    short-id: 984f
-  servername: fr5.wizard.select
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 36 - Github
-  server: 5.44.46.142
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 37 - Github
-  server: 79.174.92.222
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03ca8c3f-e777-45b5-a1b1-592094ca99ee
-  tls: true
-  reality-opts:
-    public-key: _PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI
-    short-id: a1b2c3d4
-  servername: m.vk.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇫🇷 法国 (France) 38 - Github
-  server: 104.21.72.47
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
-  tls: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
+  servername: tyxyrytyro-51255165170-direct.araghchy.com
   skip-cert-verify: false
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
-    headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
-- name: 🇫🇷 法国 (France) 39 - Github
-  server: fr4.sodahub.online
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
-  tls: true
-  servername: fr4.sodahub.online
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fr4grpc
-- name: 🇫🇷 法国 (France) 40 - Github
-  server: 145.239.55.210
-  port: 80
-  udp: true
-  type: vmess
-  uuid: e5e563fb-cf72-4250-bfff-fa0385301061
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 41 - Github
-  server: 104.21.84.30
+- name: 🇫🇷 法国 (France) 26 - Github
+  server: 172.67.185.98
   port: 2053
   udp: true
   type: vless
@@ -451,18 +271,26 @@ proxies:
     path: /api/voip/updates/static/fr2035
     headers:
       Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 42 - Github
-  server: 51.75.118.165
-  port: 20023
+- name: 🇫🇷 法国 (France) 27 - Github
+  server: 173.212.201.85
+  port: 443
   udp: true
-  type: vless
-  uuid: 49ade50d-9cd6-81a9-db5d-8e4a7f56930b
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: 173.212.201.85
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 28 - Github
+  server: 45.87.41.18
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws/49ade50d-9cd6-81a9-db5d-8e4a7f56930b
-    headers:
-      Host: 51.75.118.165
-- name: 🇫🇷 法国 (France) 43 - Github
+    path: /assignment
+- name: 🇫🇷 法国 (France) 29 - Github
   server: 145.223.68.58
   port: 443
   udp: true
@@ -474,7 +302,31 @@ proxies:
     public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
     short-id: a44ff7d2e80213c2
   servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 30 - Github
+  server: 88.151.197.213
+  port: 443
+  udp: true
+  type: vless
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 7gPPAdSE90GC5DWQhNH3-7oAHulpWz6iN8dIuKfBflc
+    short-id: 0da7e14db353e7d0
+  servername: frafra.nztvpn.com
   client-fingerprint: random
+- name: 🇫🇷 法国 (France) 31 - Github
+  server: 5.253.189.238
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
@@ -511,18 +363,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - Github
   - 🇫🇷 法国 (France) 30 - Github
   - 🇫🇷 法国 (France) 31 - Github
-  - 🇫🇷 法国 (France) 32 - Github
-  - 🇫🇷 法国 (France) 33 - Github
-  - 🇫🇷 法国 (France) 34 - Github
-  - 🇫🇷 法国 (France) 35 - Github
-  - 🇫🇷 法国 (France) 36 - Github
-  - 🇫🇷 法国 (France) 37 - Github
-  - 🇫🇷 法国 (France) 38 - Github
-  - 🇫🇷 法国 (France) 39 - Github
-  - 🇫🇷 法国 (France) 40 - Github
-  - 🇫🇷 法国 (France) 41 - Github
-  - 🇫🇷 法国 (France) 42 - Github
-  - 🇫🇷 法国 (France) 43 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -559,17 +399,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 29 - Github
   - 🇫🇷 法国 (France) 30 - Github
   - 🇫🇷 法国 (France) 31 - Github
-  - 🇫🇷 法国 (France) 32 - Github
-  - 🇫🇷 法国 (France) 33 - Github
-  - 🇫🇷 法国 (France) 34 - Github
-  - 🇫🇷 法国 (France) 35 - Github
-  - 🇫🇷 法国 (France) 36 - Github
-  - 🇫🇷 法国 (France) 37 - Github
-  - 🇫🇷 法国 (France) 38 - Github
-  - 🇫🇷 法国 (France) 39 - Github
-  - 🇫🇷 法国 (France) 40 - Github
-  - 🇫🇷 法国 (France) 41 - Github
-  - 🇫🇷 法国 (France) 42 - Github
-  - 🇫🇷 法国 (France) 43 - Github
 rules:
 - MATCH,PROXIES
