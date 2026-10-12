@@ -6,27 +6,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - Github",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.datadoghq.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - Github",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -46,6 +25,27 @@
     },
     {
       "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - Github",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - Github",
       "server": "85.192.48.142",
       "server_port": 443,
@@ -56,32 +56,12 @@
         "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
           "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
           "short_id": "db04ce8bdb8900f1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - Github",
-      "server": "best.valaiqm.ir",
-      "server_port": 3035,
-      "uuid": "a1fb63f7-a942-4010-a830-bc395703a9a4",
-      "tls": {
-        "enabled": true,
-        "server_name": "telewebion.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Pi3B8-R1-lj8ScFPOTRRER709y9hJ0varDPpMzWhtAo",
-          "short_id": "f2fda64d24c4"
         }
       }
     },
@@ -92,8 +72,7 @@
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - Github",
         "🇹🇷 土耳其 (Turkey) 02 - Github",
-        "🇹🇷 土耳其 (Turkey) 03 - Github",
-        "🇹🇷 土耳其 (Turkey) 04 - Github"
+        "🇹🇷 土耳其 (Turkey) 03 - Github"
       ]
     },
     {
@@ -102,8 +81,7 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - Github",
         "🇹🇷 土耳其 (Turkey) 02 - Github",
-        "🇹🇷 土耳其 (Turkey) 03 - Github",
-        "🇹🇷 土耳其 (Turkey) 04 - Github"
+        "🇹🇷 土耳其 (Turkey) 03 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
