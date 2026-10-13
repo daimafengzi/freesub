@@ -14,98 +14,26 @@ proxies:
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
   servername: github.com
-  client-fingerprint: random
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - Github
-  server: 194.87.196.107
-  port: 20119
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 4938e975724d0ed1
-- name: 🇷🇺 俄罗斯 (Russia) 03 - Github
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
-- name: 🇷🇺 俄罗斯 (Russia) 04 - Github
-  server: 46.17.41.166
-  port: 20119
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 895b4b796a357570
-- name: 🇷🇺 俄罗斯 (Russia) 05 - Github
-  server: 194.38.11.86
-  port: 65443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-- name: 🇷🇺 俄罗斯 (Russia) 06 - Github
-  server: 176.32.32.108
-  port: 20119
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: d8a115ba7ee0d990
-- name: 🇷🇺 俄罗斯 (Russia) 07 - Github
-  server: ruot.ayucloudservices.nl
-  port: 22037
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-- name: 🇷🇺 俄罗斯 (Russia) 08 - Github
-  server: 194.87.118.184
-  port: 2053
-  udp: true
-  type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 09 - Github
-  server: 153.80.241.206
-  port: 8444
-  udp: true
-  type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 10 - Github
-  server: 193.233.74.6
-  port: 8444
-  udp: true
-  type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 11 - Github
-  server: 94.198.54.132
+  server: 104.21.63.236
   port: 443
   udp: true
-  type: hysteria2
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  sni: msk.frkn.org
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 12 - Github
+  type: vless
+  uuid: 77702cd2-6a11-40f4-a817-1efeae6f6889
+  tls: true
+  servername: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/Nmf5YfPITFhUjeHE8KfDU5T8H?ed=2560
+    headers:
+      Host: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 03 - Github
   server: 194.113.235.121
   port: 443
   udp: true
@@ -118,47 +46,84 @@ proxies:
     short-id: 12f319370b60ec2f
   servername: fr1-4v.zvcorp24.com
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 13 - Github
-  server: renderer-stream-2-114.mirra.now
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: renderer-stream-2-114.mirra.now
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-114.mirra.now
-- name: 🇷🇺 俄罗斯 (Russia) 14 - Github
-  server: du-rov.secureservice.top
-  port: 8443
+- name: 🇷🇺 俄罗斯 (Russia) 04 - Github
+  server: 193.233.74.6
+  port: 8444
   udp: true
   type: vless
-  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  tls: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
+  servername: github.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 05 - Github
+  server: 46.17.41.166
+  port: 20119
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
+- name: 🇷🇺 俄罗斯 (Russia) 06 - Github
+  server: freede.aiage.work
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
-    short-id: 3cbc3d737fb9c4af
-  servername: du-rov.secureservice.top
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 15 - Github
-  server: 45.12.75.242
-  port: 26424
+    public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g
+    short-id: 57e7977c9011061c
+  servername: freede.aiage.work
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 07 - Github
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
+- name: 🇷🇺 俄罗斯 (Russia) 08 - Github
+  server: 194.38.11.86
+  port: 65443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+- name: 🇷🇺 俄罗斯 (Russia) 09 - Github
+  server: 81.177.215.156
+  port: 443
   udp: true
   type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  uuid: 9ee57d03-dcf5-488b-aff7-305301879353
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
+    public-key: VNinTQ6vwOujTkrJgK_NPV4SpSBU6B7xG2tpM7prITQ
+    short-id: fd5b0def0660cdb1
+  servername: tr-4vps.yourzloy.site
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 10 - Github
+  server: 194.87.118.184
+  port: 2053
+  udp: true
+  type: hysteria2
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: match-stream.lovkisport.blog
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 11 - Github
+  server: spainspeedboostjbl88.qcloud.surf
+  port: 27313
+  udp: true
+  type: hysteria2
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: spainspeedboostjbl88.qcloud.surf
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -175,10 +140,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - Github
   - 🇷🇺 俄罗斯 (Russia) 10 - Github
   - 🇷🇺 俄罗斯 (Russia) 11 - Github
-  - 🇷🇺 俄罗斯 (Russia) 12 - Github
-  - 🇷🇺 俄罗斯 (Russia) 13 - Github
-  - 🇷🇺 俄罗斯 (Russia) 14 - Github
-  - 🇷🇺 俄罗斯 (Russia) 15 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -195,9 +156,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 09 - Github
   - 🇷🇺 俄罗斯 (Russia) 10 - Github
   - 🇷🇺 俄罗斯 (Russia) 11 - Github
-  - 🇷🇺 俄罗斯 (Russia) 12 - Github
-  - 🇷🇺 俄罗斯 (Russia) 13 - Github
-  - 🇷🇺 俄罗斯 (Russia) 14 - Github
-  - 🇷🇺 俄罗斯 (Russia) 15 - Github
 rules:
 - MATCH,PROXIES

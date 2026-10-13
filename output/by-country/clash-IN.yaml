@@ -23,29 +23,19 @@ proxies:
     public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
     short-id: 221873918e0bb74d
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇮🇳 印度 (India) 03 - Github
-  server: 34.131.228.210
-  port: 443
+  server: 152.67.8.205
+  port: 80
   udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: hyfuuf6.wsone.icu
-  skip-cert-verify: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇮🇳 印度 (India) 04 - Github
-  server: 217.217.249.70
-  port: 43000
-  udp: true
-  type: vless
-  uuid: 47b83a67-f69d-4d15-9c63-73b7cd0f7d26
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3gTzdNHyWfheX_IrYiMoraornFzYxPFU9EGirW1gfRk
-    short-id: 99f735c4
-  servername: 217.217.249.70
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 05 - Github
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -56,8 +46,8 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 06 - Github
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 05 - Github
   server: in.tronsg.com
   port: 443
   udp: true
@@ -75,7 +65,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - Github
   - 🇮🇳 印度 (India) 04 - Github
   - 🇮🇳 印度 (India) 05 - Github
-  - 🇮🇳 印度 (India) 06 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -86,6 +75,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - Github
   - 🇮🇳 印度 (India) 04 - Github
   - 🇮🇳 印度 (India) 05 - Github
-  - 🇮🇳 印度 (India) 06 - Github
 rules:
 - MATCH,PROXIES

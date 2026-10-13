@@ -4,8 +4,34 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇶 IQ 01 - Github",
+      "server": "104.21.21.167",
+      "server_port": 443,
+      "password": "O5+31W&l1TnaLNaEfqur",
+      "tls": {
+        "enabled": true,
+        "server_name": "u3DANGs7bGo2yRJz4uhXMt3-M.e5Iq1Vr7gI52Ww7-83T0H6FUXI1D.WOrKerS.deV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/wITkfX2lvDk9IF41MvgctE8e7KWPbYpS?ed=2560",
+        "headers": {
+          "Host": "u3dangs7bgo2yrjz4uhxmt3-m.e5iq1vr7gi52ww7-83t0h6fuxi1d.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 02 - Github",
       "server": "178.17.57.120",
       "server_port": 40443,
       "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
@@ -15,7 +41,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -29,14 +55,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - Github"
+        "🇮🇶 IQ 01 - Github",
+        "🇮🇶 IQ 02 - Github"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - Github"
+        "🇮🇶 IQ 01 - Github",
+        "🇮🇶 IQ 02 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

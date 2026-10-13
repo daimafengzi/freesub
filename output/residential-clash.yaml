@@ -14,7 +14,14 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Github
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - Github
+  server: 49.254.204.133
+  port: 1774
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Github
   server: 118.167.248.243
   port: 24215
   udp: true
@@ -25,13 +32,43 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github
+- name: 🇩🇪 德国 (Germany) 04 (家宽) - Github
+  server: 209.38.238.229
+  port: 20202
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - Github
   server: test.keoplentuio.xyz
   port: 2053
   udp: true
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇸🇬 新加坡 (Singapore) 04 (家宽) - Github
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - Github
+  server: v10.hdacd.com
+  port: 30807
+  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - Github
+  server: p141.panda001.net
+  port: 4652
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬 新加坡 (Singapore) 08 (家宽) - Github
   server: s3.huhiuh.space
   port: 18642
   udp: true
@@ -45,17 +82,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - Github
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Github
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github
-  - 🇸🇬 新加坡 (Singapore) 04 (家宽) - Github
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - Github
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Github
+  - 🇩🇪 德国 (Germany) 04 (家宽) - Github
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - Github
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - Github
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - Github
+  - 🇸🇬 新加坡 (Singapore) 08 (家宽) - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - Github
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - Github
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github
-  - 🇸🇬 新加坡 (Singapore) 04 (家宽) - Github
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - Github
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - Github
+  - 🇩🇪 德国 (Germany) 04 (家宽) - Github
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - Github
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - Github
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - Github
+  - 🇸🇬 新加坡 (Singapore) 08 (家宽) - Github
 rules:
 - MATCH,PROXIES
