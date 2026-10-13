@@ -14,8 +14,20 @@
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - Github",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
+      "tls": {
+        "enabled": true,
+        "server_name": "140.238.213.114",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - Github",
       "server": "208.69.78.217",
-      "server_port": 33141,
+      "server_port": 33042,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -29,21 +41,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - Github",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 04 - Github",
       "server": "208.69.78.217",
-      "server_port": 21080,
+      "server_port": 33013,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -58,6 +58,30 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 05 - Github",
+      "server": "138.124.63.224",
+      "server_port": 8444,
+      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+          "short_id": "457fab2ac885dbe0"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - Github",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -66,7 +90,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -77,25 +101,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - Github",
-      "server": "152.67.75.161",
-      "server_port": 443,
-      "password": "3a702d4d1de4949005d8431220e040fb",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c13f29db6a638ad2b211b9ce2669ef27"
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 07 - Github",
       "server": "208.69.78.217",
-      "server_port": 33195,
+      "server_port": 8444,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -119,7 +127,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -131,46 +139,6 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 09 - Github",
-      "server": "138.124.63.224",
-      "server_port": 8444,
-      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": "457fab2ac885dbe0"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 10 - Github",
-      "server": "208.69.78.217",
-      "server_port": 33171,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 11 - Github",
       "server": "138.124.96.88",
       "server_port": 41826,
       "uuid": "2eb3f6a0-df6e-49b6-994c-177acdd50a97",
@@ -189,173 +157,56 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 10 - Github",
+      "server": "208.69.78.217",
+      "server_port": 33133,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 11 - Github",
+      "server": "208.69.78.217",
+      "server_port": 21084,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 12 - Github",
-      "server": "45.76.87.125",
-      "server_port": 14750,
-      "uuid": "9c090291-dd8d-454c-98df-3ca2178fcf01",
+      "server": "208.69.78.217",
+      "server_port": 33025,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vpn.local",
+        "insecure": true
       },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-        }
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 13 - Github",
-      "server": "46.101.46.169",
-      "server_port": 486,
-      "uuid": "16bf3359-e7d8-4de6-86a0-6d65cf793b56",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 14 - Github",
-      "server": "45.77.241.190",
-      "server_port": 8441,
-      "uuid": "7f99dcea-d6fa-45d5-aae9-11edad31364b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 15 - Github",
-      "server": "208.69.78.217",
-      "server_port": 33044,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 16 - Github",
-      "server": "208.69.78.217",
-      "server_port": 21021,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 17 - Github",
-      "server": "208.69.78.217",
-      "server_port": 21090,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 18 - Github",
-      "server": "208.69.78.217",
-      "server_port": 21067,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 19 - Github",
-      "server": "208.69.78.217",
-      "server_port": 21054,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 20 - Github",
-      "server": "208.69.78.217",
-      "server_port": 21086,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 21 - Github",
       "server": "208.69.78.217",
       "server_port": 21161,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
@@ -371,9 +222,28 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 22 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 14 - Github",
       "server": "208.69.78.217",
-      "server_port": 33092,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      },
+      "server_ports": [
+        "21000:21199",
+        "33000:33199"
+      ]
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 15 - Github",
+      "server": "208.69.78.217",
+      "server_port": 21086,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -387,9 +257,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 23 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 16 - Github",
       "server": "208.69.78.217",
-      "server_port": 8444,
+      "server_port": 21080,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -403,9 +273,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 24 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 17 - Github",
       "server": "208.69.78.217",
-      "server_port": 21046,
+      "server_port": 33141,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -438,14 +308,7 @@
         "🇨🇭 瑞士 (Switzerland) 14 - Github",
         "🇨🇭 瑞士 (Switzerland) 15 - Github",
         "🇨🇭 瑞士 (Switzerland) 16 - Github",
-        "🇨🇭 瑞士 (Switzerland) 17 - Github",
-        "🇨🇭 瑞士 (Switzerland) 18 - Github",
-        "🇨🇭 瑞士 (Switzerland) 19 - Github",
-        "🇨🇭 瑞士 (Switzerland) 20 - Github",
-        "🇨🇭 瑞士 (Switzerland) 21 - Github",
-        "🇨🇭 瑞士 (Switzerland) 22 - Github",
-        "🇨🇭 瑞士 (Switzerland) 23 - Github",
-        "🇨🇭 瑞士 (Switzerland) 24 - Github"
+        "🇨🇭 瑞士 (Switzerland) 17 - Github"
       ]
     },
     {
@@ -468,14 +331,7 @@
         "🇨🇭 瑞士 (Switzerland) 14 - Github",
         "🇨🇭 瑞士 (Switzerland) 15 - Github",
         "🇨🇭 瑞士 (Switzerland) 16 - Github",
-        "🇨🇭 瑞士 (Switzerland) 17 - Github",
-        "🇨🇭 瑞士 (Switzerland) 18 - Github",
-        "🇨🇭 瑞士 (Switzerland) 19 - Github",
-        "🇨🇭 瑞士 (Switzerland) 20 - Github",
-        "🇨🇭 瑞士 (Switzerland) 21 - Github",
-        "🇨🇭 瑞士 (Switzerland) 22 - Github",
-        "🇨🇭 瑞士 (Switzerland) 23 - Github",
-        "🇨🇭 瑞士 (Switzerland) 24 - Github"
+        "🇨🇭 瑞士 (Switzerland) 17 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

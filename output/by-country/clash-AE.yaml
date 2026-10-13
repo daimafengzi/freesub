@@ -23,14 +23,14 @@ proxies:
   port: 443
   udp: true
   type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: 5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I
     short-id: 6f76ad09
   servername: addons.mozilla.org
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 03 - Github
   server: 157.228.155.185
   port: 443
@@ -55,43 +55,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 05 - Github
-  server: 151.241.166.159
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9ee57d03-dcf5-488b-aff7-305301879353
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: tPhBRGpTbyaPFF3W0wpqncSrdNsV5I-eyM3S9CZoeCQ
-    short-id: 9a26e586f8cadc07
-  servername: pl-hsts.zloygo.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 06 - Github
-  server: 84.235.244.108
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - Github
-  server: 146.70.102.82
-  port: 443
-  udp: true
-  type: vless
-  uuid: 31fd2fde-ca69-450e-8c03-eaad819b06b9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
-    short-id: 002fb4ec7b3088cc
-  servername: www.datadoghq.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 08 - Github
   server: 157.228.128.59
   port: 443
   udp: true
@@ -104,6 +67,71 @@ proxies:
     short-id: 06e00e7c
   servername: addons.mozilla.org
   client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 06 - Github
+  server: 31.59.210.32
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA
+    short-id: 7ec4374ffc6308fd
+  servername: www.yandex.ru
+  client-fingerprint: ios
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 07 - Github
+  server: 31.59.210.26
+  port: 2088
+  udp: true
+  type: vless
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  servername: www.yandex.ru
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+- name: 🇦🇪 阿联酋 (UAE) 08 - Github
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇦🇪 阿联酋 (UAE) 09 - Github
+  server: 146.70.102.82
+  port: 443
+  udp: true
+  type: vless
+  uuid: 31fd2fde-ca69-450e-8c03-eaad819b06b9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
+    short-id: 002fb4ec7b3088cc
+  servername: www.datadoghq.com
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 10 - Github
+  server: 26uusapi.mate-fox.com
+  port: 16586
+  udp: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -117,6 +145,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - Github
   - 🇦🇪 阿联酋 (UAE) 07 - Github
   - 🇦🇪 阿联酋 (UAE) 08 - Github
+  - 🇦🇪 阿联酋 (UAE) 09 - Github
+  - 🇦🇪 阿联酋 (UAE) 10 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -130,5 +160,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - Github
   - 🇦🇪 阿联酋 (UAE) 07 - Github
   - 🇦🇪 阿联酋 (UAE) 08 - Github
+  - 🇦🇪 阿联酋 (UAE) 09 - Github
+  - 🇦🇪 阿联酋 (UAE) 10 - Github
 rules:
 - MATCH,PROXIES

@@ -5,20 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - Github
-  server: 104.18.155.229
+  server: 152.67.115.203
   port: 443
   udp: true
-  type: vless
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  tls: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+  type: hysteria2
+  password: 633bc3be486b646190661ac2387c150a
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 - name: 🇦🇺 澳大利亚 (Australia) 02 - Github
   server: 144.172.65.72
   port: 8443
@@ -39,16 +34,6 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 04 - Github
-  server: 152.67.115.203
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,7 +42,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - Github
   - 🇦🇺 澳大利亚 (Australia) 02 - Github
   - 🇦🇺 澳大利亚 (Australia) 03 - Github
-  - 🇦🇺 澳大利亚 (Australia) 04 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,6 +50,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - Github
   - 🇦🇺 澳大利亚 (Australia) 02 - Github
   - 🇦🇺 澳大利亚 (Australia) 03 - Github
-  - 🇦🇺 澳大利亚 (Australia) 04 - Github
 rules:
 - MATCH,PROXIES
