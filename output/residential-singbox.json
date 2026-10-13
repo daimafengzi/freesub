@@ -4,20 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - Github",
-      "server": "155.117.19.17",
-      "server_port": 443,
-      "password": "5fa748137b6d822308eea4611f474ad5",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
-      }
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - Github",
+      "server": "218.237.185.234",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
     },
     {
       "type": "vless",
@@ -28,11 +20,7 @@
       "tls": {
         "enabled": true,
         "server_name": "googol.wookshop.ir",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -40,20 +28,29 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - Github",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - Github"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - Github",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - Github",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - Github",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - Github"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - Github",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - Github",
+        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
