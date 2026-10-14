@@ -15,7 +15,7 @@
         "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -35,7 +35,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -51,47 +51,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - Github",
-      "server": "151.241.226.201",
-      "server_port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-          "short_id": "9e419c0759b54d6f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - Github",
-      "server": "153.56.210.61",
-      "server_port": 443,
-      "uuid": "0de1d303-d7de-0001-8679-c4cb67e2e2cc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc",
-          "short_id": "a696de84963656de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - Github",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -111,8 +70,28 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - Github",
+      "server": "151.241.226.201",
+      "server_port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+          "short_id": "9e419c0759b54d6f"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - Github",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - Github",
       "server": "172.67.176.3",
       "server_port": 2053,
       "password": "e309e031-991e-4656-9934-44d10deb8fd8",
@@ -138,7 +117,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - Github",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - Github",
       "server": "tr2.h1cloud.net",
       "server_port": 25375,
       "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
@@ -161,14 +140,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇷 土耳其 (Turkey) 08 - Github",
-      "server": "94.184.42.18",
-      "server_port": 8880,
-      "method": "chacha20-ietf-poly1305",
-      "password": "AWVyUgWWLc4G47GNo_bx2w"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -178,9 +149,7 @@
         "🇹🇷 土耳其 (Turkey) 03 - Github",
         "🇹🇷 土耳其 (Turkey) 04 - Github",
         "🇹🇷 土耳其 (Turkey) 05 - Github",
-        "🇹🇷 土耳其 (Turkey) 06 - Github",
-        "🇹🇷 土耳其 (Turkey) 07 - Github",
-        "🇹🇷 土耳其 (Turkey) 08 - Github"
+        "🇹🇷 土耳其 (Turkey) 06 - Github"
       ]
     },
     {
@@ -192,9 +161,7 @@
         "🇹🇷 土耳其 (Turkey) 03 - Github",
         "🇹🇷 土耳其 (Turkey) 04 - Github",
         "🇹🇷 土耳其 (Turkey) 05 - Github",
-        "🇹🇷 土耳其 (Turkey) 06 - Github",
-        "🇹🇷 土耳其 (Turkey) 07 - Github",
-        "🇹🇷 土耳其 (Turkey) 08 - Github"
+        "🇹🇷 土耳其 (Turkey) 06 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,82 +5,104 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - Github
-  server: 3.10.198.113
-  port: 443
+  server: 188.114.97.8
+  port: 8443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  type: vless
+  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  tls: true
+  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
 - name: 🇬🇧 英国 (United Kingdom) 02 - Github
-  server: 3.10.142.119
+  server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
   port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇬🇧 英国 (United Kingdom) 03 - Github
-  server: 35.177.67.165
+  server: medium.com
   port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  type: vless
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  tls: true
+  servername: rayan-007.maxima.dpdns.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '/ '
+    headers:
+      Host: rayan-007.maxima.dpdns.org
 - name: 🇬🇧 英国 (United Kingdom) 04 - Github
-  server: 13.40.70.175
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 05 - Github
-  server: 13.40.25.145
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 06 - Github
-  server: 149.102.132.184
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 07 - Github
-  server: 149.102.132.184
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 08 - Github
-  server: 16.60.8.87
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 09 - Github
-  server: 13.40.42.59
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 10 - Github
-  server: 13.135.199.253
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 11 - Github
   server: 18.135.29.85
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 05 - Github
+  server: 3.10.198.113
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 06 - Github
+  server: 13.40.42.59
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 07 - Github
+  server: 35.179.134.0
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 08 - Github
+  server: 149.102.132.184
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 09 - Github
+  server: 146.70.61.18
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 10 - Github
+  server: 149.102.132.184
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 11 - Github
+  server: 51.77.225.200
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
 - name: 🇬🇧 英国 (United Kingdom) 12 - Github
   server: 141.98.101.181
   port: 443
@@ -89,6 +111,13 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇬🇧 英国 (United Kingdom) 13 - Github
+  server: 13.135.102.116
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 14 - Github
   server: 23.81.34.204
   port: 443
   udp: true
@@ -100,31 +129,27 @@ proxies:
     public-key: J_p_dxR8dIKaezk1_Ins5MZ7e4dqgrr2n9690vVuQ2s
     short-id: b19b017d6f453873
   servername: speed.cloudflare.com
-  client-fingerprint: ios
-- name: 🇬🇧 英国 (United Kingdom) 14 - Github
-  server: 51.77.225.200
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
+  client-fingerprint: firefox
 - name: 🇬🇧 英国 (United Kingdom) 15 - Github
-  server: 35.179.134.0
-  port: 443
+  server: 146.70.61.37
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 16 - Github
-  server: 186.190.211.188
-  port: 443
+  server: 57.129.132.223
+  port: 80
   udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 186.190.211.188
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 57.129.132.223
 - name: 🇬🇧 英国 (United Kingdom) 17 - Github
   server: 164.37.100.195
   port: 443
@@ -139,20 +164,13 @@ proxies:
   servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
   client-fingerprint: chrome
 - name: 🇬🇧 英国 (United Kingdom) 18 - Github
-  server: 146.70.61.18
+  server: 146.70.23.32
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇬🇧 英国 (United Kingdom) 19 - Github
-  server: 146.70.61.37
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 20 - Github
   server: 23.81.36.148
   port: 1222
   udp: true
@@ -163,31 +181,8 @@ proxies:
     public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
     short-id: a25d0f
   servername: www.forvo.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 21 - Github
-  server: 51.89.194.151
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
-  tls: true
-  reality-opts:
-    public-key: xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0
-    short-id: d051f678212f9d54
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 22 - Github
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇬🇧 英国 (United Kingdom) 23 - Github
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 20 - Github
   server: 45.141.118.213
   port: 443
   udp: true
@@ -198,7 +193,7 @@ proxies:
   servername: laga16.api3-max.ru
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 24 - Github
+- name: 🇬🇧 英国 (United Kingdom) 21 - Github
   server: 206.245.166.203
   port: 443
   udp: true
@@ -209,40 +204,8 @@ proxies:
   servername: laga20.api3-max.ru
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 25 - Github
-  server: 46.250.250.149
-  port: 2053
-  udp: true
-  type: vless
-  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
-  tls: true
-  reality-opts:
-    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
-    short-id: 9922313fffed1c63
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 26 - Github
-  server: 146.70.23.32
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 27 - Github
-  server: 95.85.224.51
-  port: 443
-  udp: true
-  type: vless
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: a696de84963656de
-  servername: max.ru
-  client-fingerprint: qq
-- name: 🇬🇧 英国 (United Kingdom) 28 - Github
-  server: lagad17.api3-max.ru
+- name: 🇬🇧 英国 (United Kingdom) 22 - Github
+  server: 45.141.118.49
   port: 443
   udp: true
   type: vless
@@ -252,43 +215,8 @@ proxies:
   servername: lagad17.api3-max.ru
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 29 - Github
-  server: 13.135.102.116
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧 英国 (United Kingdom) 30 - Github
-  server: 103.137.250.68
-  port: 443
-  udp: true
-  type: vless
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  tls: true
-  servername: rnxq-1lpi3m.linmeisoft.com
-  skip-cert-verify: false
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-- name: 🇬🇧 英国 (United Kingdom) 31 - Github
-  server: 193.163.203.170
-  port: 443
-  udp: true
-  type: vless
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  servername: yandex.ru
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 32 - Github
-  server: laga19.api3-max.ru
+- name: 🇬🇧 英国 (United Kingdom) 23 - Github
+  server: 206.245.166.173
   port: 443
   udp: true
   type: vless
@@ -297,40 +225,8 @@ proxies:
   tls: true
   servername: laga19.api3-max.ru
   skip-cert-verify: false
-- name: 🇬🇧 英国 (United Kingdom) 33 - Github
-  server: 46.250.240.80
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
-  tls: true
-  reality-opts:
-    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
-    short-id: 4cc9dc65f7770115
-  servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 34 - Github
-  server: 51.38.71.147
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-  tls: true
-  servername: node-uk.connectsuite.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 35 - Github
-  server: laga18.api3-max.ru
-  port: 443
-  udp: true
-  type: vless
-  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-  flow: xtls-rprx-vision
-  tls: true
-  servername: laga18.api3-max.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 36 - Github
+- name: 🇬🇧 英国 (United Kingdom) 24 - Github
   server: 31.76.62.32
   port: 443
   udp: true
@@ -343,46 +239,110 @@ proxies:
     short-id: 84341e3e
   servername: lv-rix-1.koolb.org
   client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 37 - Github
-  server: 109.248.169.195
-  port: 43000
+- name: 🇬🇧 英国 (United Kingdom) 25 - Github
+  server: 5.199.0.226
+  port: 443
   udp: true
   type: vless
-  uuid: caed9423-a900-4704-9045-d207a8d4697b
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  tls: true
+  servername: rnxq-1lpi3m.linmeisoft.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+    headers:
+      Host: rnxq-1lpi3m.linmeisoft.com
+- name: 🇬🇧 英国 (United Kingdom) 26 - Github
+  server: 95.85.224.51
+  port: 443
+  udp: true
+  type: vless
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 0cVL3RpP9S7OYgQDyZMoV6n3LtrbDJ7DjjUk_0ZizWc
-    short-id: 445b41ed
-  servername: 109.248.169.195
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  servername: max.ru
+  client-fingerprint: qq
+- name: 🇬🇧 英国 (United Kingdom) 27 - Github
+  server: laga18.api3-max.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  flow: xtls-rprx-vision
+  tls: true
+  servername: laga18.api3-max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 28 - Github
+  server: 46.250.250.149
+  port: 2053
+  udp: true
+  type: vless
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  tls: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+    short-id: 9922313fffed1c63
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 29 - Github
+  server: 13.40.70.175
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 30 - Github
+  server: 193.163.203.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 31 - Github
+  server: 46.250.240.80
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
+  tls: true
+  reality-opts:
+    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
+    short-id: 4cc9dc65f7770115
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 38 - Github
+- name: 🇬🇧 英国 (United Kingdom) 32 - Github
+  server: 13.135.199.253
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧 英国 (United Kingdom) 33 - Github
   server: 107.181.151.39
   port: 443
   udp: true
   type: vless
-  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
+  uuid: ff40696b-06d6-443b-9481-8d01eddd13e1
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 2a2ce9e42980
-  servername: www.mozilla.org
+    short-id: d659da01fb94
+  servername: www.foxsports.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 39 - Github
-  server: 104.238.2.82
-  port: 443
-  udp: true
-  type: vless
-  uuid: d806a58b-33aa-42e0-b170-395e49c16b37
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ
-    short-id: b558b9305a0b
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 40 - Github
+- name: 🇬🇧 英国 (United Kingdom) 34 - Github
   server: 107.181.151.241
   port: 443
   udp: true
@@ -394,8 +354,8 @@ proxies:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: 225e930cfd4d
   servername: www.hollywoodreporter.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 41 - Github
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 35 - Github
   server: 87.239.249.137
   port: 443
   udp: true
@@ -408,26 +368,64 @@ proxies:
     short-id: 91af08b1ce1f
   servername: www.foxsports.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 42 - Github
+- name: 🇬🇧 英国 (United Kingdom) 36 - Github
+  server: 104.238.2.82
+  port: 443
+  udp: true
+  type: vless
+  uuid: d806a58b-33aa-42e0-b170-395e49c16b37
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ
+    short-id: b558b9305a0b
+  servername: www.microsoft.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 37 - Github
   server: webdisk.jaggyslawa.org
   port: 443
   udp: true
   type: vless
-  uuid: 8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435
+  uuid: 75113671-63e3-452d-87d3-261a37e8b472
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: 87174b37ce3b
-  servername: www.microsoft.com
+    short-id: baf023e1026a
+  servername: www.mozilla.org
   client-fingerprint: edge
-- name: 🇬🇧 英国 (United Kingdom) 43 - Github
+- name: 🇬🇧 英国 (United Kingdom) 38 - Github
+  server: 51.89.194.151
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
+  tls: true
+  reality-opts:
+    public-key: xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0
+    short-id: d051f678212f9d54
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 39 - Github
   server: 94.156.250.148
   port: 7001
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
+- name: 🇬🇧 英国 (United Kingdom) 40 - Github
+  server: 109.248.169.195
+  port: 43000
+  udp: true
+  type: vless
+  uuid: caed9423-a900-4704-9045-d207a8d4697b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0cVL3RpP9S7OYgQDyZMoV6n3LtrbDJ7DjjUk_0ZizWc
+    short-id: 445b41ed
+  servername: 109.248.169.195
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -473,9 +471,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 38 - Github
   - 🇬🇧 英国 (United Kingdom) 39 - Github
   - 🇬🇧 英国 (United Kingdom) 40 - Github
-  - 🇬🇧 英国 (United Kingdom) 41 - Github
-  - 🇬🇧 英国 (United Kingdom) 42 - Github
-  - 🇬🇧 英国 (United Kingdom) 43 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -521,8 +516,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 38 - Github
   - 🇬🇧 英国 (United Kingdom) 39 - Github
   - 🇬🇧 英国 (United Kingdom) 40 - Github
-  - 🇬🇧 英国 (United Kingdom) 41 - Github
-  - 🇬🇧 英国 (United Kingdom) 42 - Github
-  - 🇬🇧 英国 (United Kingdom) 43 - Github
 rules:
 - MATCH,PROXIES
