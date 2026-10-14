@@ -4,43 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 01 - Github",
-      "server": "185.225.195.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "vms.lifetime18.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - Github",
-      "server": "162.159.152.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 01 - Github",
       "server": "140.238.213.114",
       "server_port": 50160,
       "password": "84a506ca5aca505696a454d828420b3f",
@@ -51,40 +16,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - Github",
-      "server": "208.69.78.217",
-      "server_port": 33013,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - Github",
-      "server": "208.69.78.217",
-      "server_port": 33042,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02 - Github",
       "server": "45.90.59.15",
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
@@ -94,7 +27,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -105,7 +38,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 07 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - Github",
       "server": "138.124.63.224",
       "server_port": 8444,
       "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
@@ -128,31 +61,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 08 - Github",
-      "server": "ch.srv.vbuste.ru",
-      "server_port": 444,
-      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
-      "tls": {
-        "enabled": true,
-        "server_name": "ch.srv.vbuste.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
-          "short_id": "4be4110078ebed4a"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 09 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - Github",
       "server": "132.243.175.144",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -160,29 +70,46 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 10 - Github",
-      "server": "208.69.78.217",
-      "server_port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - Github",
+      "server": "br.urobotix.tech",
+      "server_port": 443,
+      "uuid": "7b9b233c-c646-4859-88b2-2a55695c6487",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "br.urobotix.tech",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-          "short_id": "ad86e2d52ff40ebd"
+          "public_key": "jQx41aPKBwFCRKregjdLMmwo4ShIYfjHWIMIl-0HJhc",
+          "short_id": "288d01b5"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 11 - Github",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - Github",
       "server": "208.69.78.217",
-      "server_port": 21090,
+      "server_port": 33187,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - Github",
+      "server": "208.69.78.217",
+      "server_port": 21080,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -205,11 +132,7 @@
         "🇨🇭 瑞士 (Switzerland) 04 - Github",
         "🇨🇭 瑞士 (Switzerland) 05 - Github",
         "🇨🇭 瑞士 (Switzerland) 06 - Github",
-        "🇨🇭 瑞士 (Switzerland) 07 - Github",
-        "🇨🇭 瑞士 (Switzerland) 08 - Github",
-        "🇨🇭 瑞士 (Switzerland) 09 - Github",
-        "🇨🇭 瑞士 (Switzerland) 10 - Github",
-        "🇨🇭 瑞士 (Switzerland) 11 - Github"
+        "🇨🇭 瑞士 (Switzerland) 07 - Github"
       ]
     },
     {
@@ -222,11 +145,7 @@
         "🇨🇭 瑞士 (Switzerland) 04 - Github",
         "🇨🇭 瑞士 (Switzerland) 05 - Github",
         "🇨🇭 瑞士 (Switzerland) 06 - Github",
-        "🇨🇭 瑞士 (Switzerland) 07 - Github",
-        "🇨🇭 瑞士 (Switzerland) 08 - Github",
-        "🇨🇭 瑞士 (Switzerland) 09 - Github",
-        "🇨🇭 瑞士 (Switzerland) 10 - Github",
-        "🇨🇭 瑞士 (Switzerland) 11 - Github"
+        "🇨🇭 瑞士 (Switzerland) 07 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
