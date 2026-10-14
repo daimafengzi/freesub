@@ -18,33 +18,6 @@
     {
       "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - Github",
-      "server": "94.183.170.135",
-      "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - Github",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - Github",
       "server": "ee-1-1.unturned-rust-dead.lol",
       "server_port": 443,
       "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
@@ -68,7 +41,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - Github",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - Github",
+      "server": "93.89.220.37",
+      "server_port": 443,
+      "uuid": "185e2bb3-2934-48d0-bbd5-dd20d16e83ee",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ibm.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lwKaUQ81wJUJRsqAPsfTPj5V_f9N50UYEwzRI_nuq2g",
+          "short_id": "e88cb983f3c97528"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - Github",
       "server": "185.31.242.61",
       "server_port": 443,
       "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
@@ -89,8 +83,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 06 - Github",
-      "server": "188.225.38.216",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - Github",
+      "server": "lalibobi.online",
       "server_port": 443,
       "uuid": "30292475-4666-4c26-bcb2-338a0919958b",
       "tls": {
@@ -119,8 +113,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 02 - Github",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - Github",
         "🇪🇪 爱沙尼亚 (Estonia) 04 - Github",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - Github",
-        "🇪🇪 爱沙尼亚 (Estonia) 06 - Github"
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - Github"
       ]
     },
     {
@@ -131,8 +124,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 02 - Github",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - Github",
         "🇪🇪 爱沙尼亚 (Estonia) 04 - Github",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - Github",
-        "🇪🇪 爱沙尼亚 (Estonia) 06 - Github"
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
