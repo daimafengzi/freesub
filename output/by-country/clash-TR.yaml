@@ -42,20 +42,20 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 - name: 🇹🇷 土耳其 (Turkey) 04 - Github
-  server: 153.56.210.61
+  server: 201.34.148.44
   port: 443
   udp: true
   type: vless
-  uuid: 0de1d303-d7de-0001-8679-c4cb67e2e2cc
+  uuid: 93996a55-febe-4183-9366-df6cb11a34dd
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: a696de84963656de
-  servername: amd.com
-  client-fingerprint: chrome
+    public-key: r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic
+    short-id: abbcd128
+  servername: sun9-38.userapi.com
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 05 - Github
   server: tr2.h1cloud.net
   port: 25375
@@ -71,19 +71,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 05195f917c82
-- name: 🇹🇷 土耳其 (Turkey) 06 - Github
-  server: tr.datanode-internal.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 93996a55-febe-4183-9366-df6cb11a34dd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic
-    short-id: abbcd128
-  servername: sun9-38.userapi.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -94,7 +81,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - Github
   - 🇹🇷 土耳其 (Turkey) 04 - Github
   - 🇹🇷 土耳其 (Turkey) 05 - Github
-  - 🇹🇷 土耳其 (Turkey) 06 - Github
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -105,6 +91,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - Github
   - 🇹🇷 土耳其 (Turkey) 04 - Github
   - 🇹🇷 土耳其 (Turkey) 05 - Github
-  - 🇹🇷 土耳其 (Turkey) 06 - Github
 rules:
 - MATCH,PROXIES

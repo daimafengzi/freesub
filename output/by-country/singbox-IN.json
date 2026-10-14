@@ -4,15 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - Github",
-      "server": "in.tronsg.com",
+      "server": "148.113.5.44",
       "server_port": 443,
-      "password": "Trojan@82164024",
+      "uuid": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "in.tronsg.com",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
+          "short_id": "221873918e0bb74d"
+        }
       }
     },
     {
@@ -26,7 +35,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -43,37 +52,7 @@
       "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
       "security": "auto",
       "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 04 - Github",
-      "server": "172.105.39.124",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - Github",
-      "server": "148.113.5.44",
-      "server_port": 443,
-      "uuid": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
-          "short_id": "221873918e0bb74d"
-        }
+        "type": "ws"
       }
     },
     {
@@ -83,9 +62,7 @@
         "auto",
         "🇮🇳 印度 (India) 01 - Github",
         "🇮🇳 印度 (India) 02 - Github",
-        "🇮🇳 印度 (India) 03 - Github",
-        "🇮🇳 印度 (India) 04 - Github",
-        "🇮🇳 印度 (India) 05 - Github"
+        "🇮🇳 印度 (India) 03 - Github"
       ]
     },
     {
@@ -94,9 +71,7 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - Github",
         "🇮🇳 印度 (India) 02 - Github",
-        "🇮🇳 印度 (India) 03 - Github",
-        "🇮🇳 印度 (India) 04 - Github",
-        "🇮🇳 印度 (India) 05 - Github"
+        "🇮🇳 印度 (India) 03 - Github"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
